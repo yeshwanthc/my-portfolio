@@ -62,7 +62,7 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <ul  className='hidden md:flex text-[#FFFFFF]'>
+          <ul  className='hidden md:flex text-[#000000]'>
             <Link href='/'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
             </Link>

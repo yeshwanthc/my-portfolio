@@ -10,12 +10,12 @@ const Main = () => {
     <div className='w-full h-screen text-center'>
           <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
                 <div>
-                      <p className='text-sm tracking-widest text-[#ffffff]'>Text need to add </p>
+                      <p className='text-sm tracking-widest text-[#ffffff]'> </p>
                     <h1 className='py-4 text-[#ffffff]'>
                     Hi, Iam <span className='text-[#412728]'>Yeshwanth</span> </h1> 
                     <h1 className='py-2 text-[#ffffff]'>
                     A Front End Web Developer</h1>
-                    <p className='py-4 text-[#ffffff] max-w-[70%] m-auto'>Content need to add
+                    <p className='py-4 text-[#ffffff] max-w-[70%] m-auto'>
 
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>

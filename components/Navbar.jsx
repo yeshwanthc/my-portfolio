@@ -5,6 +5,8 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
+import NavLogo from '../public/assets/navLogo.png'
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -55,7 +57,7 @@ const Navbar = () => {
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
           <Image
-            src='![Book Logo](/my-portfolio/components/navLogo.png)'
+            src=NavLogo
             alt='/'
             width='205'
             height='100'
@@ -105,7 +107,7 @@ const Navbar = () => {
             <div className='flex w-full items-center justify-between'>
               <Link href='/'>
                 <Image
-                  src='/my-portfolio/components/navLogo.png'
+                  src=NavLogo
                   width='200'
                   height='155'
                   alt='/'

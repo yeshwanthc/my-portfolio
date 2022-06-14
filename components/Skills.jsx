@@ -1,5 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
+import Html from '../public/assets/skills/html.png'
+import Css from '../public/assets/skills/css.png'
+import Javascript from '../public/assets/skills/javascript.png'
+import Reactjs from '../public/assets/skills/react.png'
+import Nextjs from '../public/assets/skills/next.png'
+import Wordpress from '../public/assets/skills/wordpress.png'
+import Github from '../public/assets/skills/github1.png'
+import Tailwind from '../public/assets/skills/tailwind.png'
 
 const Skills = () => {
   return (
@@ -15,7 +23,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src='https://imgur.com/K1858lD'
+                  src={Html}
                   width='64px'
                   height='64px'
                   alt='/'
@@ -30,7 +38,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center '>
               <div className='m-auto'>
                 <Image
-                  src='https://imgur.com/KhDwUpg'
+                  src={Css}
                   width='64px'
                   height='64px'
                   alt='/'
@@ -45,7 +53,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src='https://imgur.com/IvGnw23'
+                  src={Javascript}
                   width='64px'
                   height='64px'
                   alt='/'
@@ -60,7 +68,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src='https://i.imgur.com/xF4OiGn.png'
+                  src={Reactjs}
                   width='64px'
                   height='64px'
                   alt='/'
@@ -75,7 +83,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src='https://imgur.com/bT4yBe7'
+                  src={Tailwind}
                   width='64px'
                   height='64px'
                   alt='/'
@@ -90,7 +98,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src='https://imgur.com/A3au1p1'
+                  src={Nextjs}
                   width='64px'
                   height='64px'
                   alt='/'
@@ -105,7 +113,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src='https://imgur.com/XgTKeo1'
+                  src={Github}
                   width='64px'
                   height='64px'
                   alt='/'
@@ -120,7 +128,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src='https://imgur.com/jRfoVqL'
+                  src={Wordpress}
                   width='64px'
                   height='64px'
                   alt='/'

@@ -6,7 +6,7 @@ import Javascript from '../public/assets/skills/javascript.png'
 import Reactjs from '../public/assets/skills/react.png'
 import Nextjs from '../public/assets/skills/next.png'
 import Wordpress from '../public/assets/skills/wordpress.png'
-import Github from '../public/assets/skills/github1.png'
+import Firebase from '../public/assets/skills/firebase.png'
 import Tailwind from '../public/assets/skills/tailwind.png'
 
 const Skills = () => {
@@ -113,14 +113,14 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image
-                  src={Github}
+                  src={Firebase}
                   width='64px'
                   height='64px'
                   alt='/'
                 />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Github</h3>
+                <h3>Firebase</h3>
               </div>
             </div>
           </div>

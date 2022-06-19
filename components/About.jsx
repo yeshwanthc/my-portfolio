@@ -9,7 +9,7 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#412728]'>About</p>
           <h2 className='py-4'>Who Am I</h2>
           <p className='py-2 text-white'>
-          I have spent the last 3 years in the company called Nielsen working as a
+          I have spent my last 3 years in the company called Nielsen working as a
           Data Analyst and as a freelance Web Developer. I have always had a knack for
           technology and working with computers. In 2020 I started working
           with HTML & CSS to make some minor edits on small business websites when I was working as a freelancer. What I thought was just a few small edits

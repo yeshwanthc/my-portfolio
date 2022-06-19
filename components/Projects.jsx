@@ -45,7 +45,7 @@ const Projects = () => {
             projectUrl='https://mishti.io/'
           />
           <ProjectItem
-          title='Upheed.com'
+          title='Upheed.in'
           backgroundImg={UpheedImg}
           projectUrl='https://upheed.in/'
         />

@@ -4,12 +4,11 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 7rem;
 }
 
 @layer base {
   body {
-    @apply bg-gradient-to-r from-[#73443B] to-[#A36748] text-[#ffffff] tracking-wide
+    @apply bg-gradient-to-r from-[#00e0c6] to-[#00e0c6] text-[#ffffff] tracking-wide
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -29,6 +28,6 @@ html {
   }
 
   button {
-    @apply shadow-xl  rounded-xl uppercase bg-gradient-to-r from-[#6d5b5b] to-[#6d5b5b] text-white
+    @apply shadow-xl  rounded-xl uppercase bg-gradient-to-r from-[#68c5ba] to-[#00e0c6] text-white
   }
 }

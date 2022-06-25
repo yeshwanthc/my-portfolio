@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <div id='projects' className='w-full pb-10'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className='text-xl tracking-widest uppercase text-[#412728]'>
+        <p className='text-xl tracking-widest uppercase text-[#016170]'>
           Projects
         </p>
         <h2 className='py-4'>Websites I Built</h2>
@@ -45,7 +45,7 @@ const Projects = () => {
             projectUrl='https://mishti.io/'
           />
           <ProjectItem
-          title='Upheed.in'
+          title='Upheed.com'
           backgroundImg={UpheedImg}
           projectUrl='https://upheed.in/'
         />

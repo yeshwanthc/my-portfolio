@@ -49,8 +49,8 @@ const Navbar = () => {
      
       className={
         shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100] bg-[#016170]'
-          : 'fixed w-full h-20 z-[100] bg-[#016170]'
+          ? 'fixed w-full h-20 shadow-xl z-[100] bg-[#303030]'
+          : 'fixed w-full h-20 z-[100] bg-[#303030]'
       }
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
@@ -58,8 +58,8 @@ const Navbar = () => {
           <Image
             src={NavLogo}
             alt='/'
-            width='205'
-            height='100'
+            width='170'
+            height='150'
           />
         </Link>
         <div>
@@ -98,7 +98,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#016170] p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#000000] p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -114,7 +114,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className='rounded-full shadow-lg  p-3 cursor-pointer bg-[#00e0c6]'
+                className='rounded-full shadow-lg  p-3 cursor-pointer bg-[#303030]'
               >
                 <AiOutlineClose />
               </div>
@@ -158,22 +158,22 @@ const Navbar = () => {
                 Lets Connect
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                <div className='rounded-full shadow-lg  p-4 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#00e0c6] '>
+                <div className='rounded-full shadow-lg  p-4 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#303030] '>
                 <Link href='https://www.linkedin.com/in/yeshwanth-yesh-76b86123a/' >
                 <FaLinkedinIn />
                 </Link>
                 </div>
-                <div className='rounded-full shadow-lg  p-4 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#00e0c6]'>
+                <div className='rounded-full shadow-lg  p-4 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#303030]'>
                 <Link href='https://github.com/yeshwanthc'>
                 <FaGithub />
               </Link>
               </div>
-              <div className='rounded-full shadow-lg  p-4 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#00e0c6]'>
+              <div className='rounded-full shadow-lg  p-4 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#303030]'>
               <Link href='mailto:yeshwanthnaidu62@gmail.com'>
               <AiOutlineMail />
               </Link>
               </div>
-              <div className='rounded-full shadow-lg  p-4 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#00e0c6]'>
+              <div className='rounded-full shadow-lg  p-4 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#303030]'>
               <Link href='tel:+919550066495'>
               <BsFillPersonLinesFill />
               </Link>

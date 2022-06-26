@@ -10,31 +10,31 @@ const Main = () => {
     <div className='w-full h-screen text-center'>
           <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
                 <div>
-                      <p className='text-sm tracking-widest text-[#ffffff]'>Text need to add </p>
+                      <p className='text-sm tracking-widest text-[#ffffff]'> </p>
                     <h1 className='py-4 text-[#ffffff]'>
-                    Hi, Iam <span className='text-[#016170]'>Yeshwanth</span> </h1> 
+                    Hi, Iam <span >Yeshwanth</span> </h1> 
                     <h1 className='py-2 text-[#ffffff]'>
                     A Front End Web Developer</h1>
-                    <p className='py-4 text-[#ffffff] max-w-[70%] m-auto'>Content need to add
+                    <p className='py-4 text-[#ffffff] max-w-[70%] m-auto'>
 
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                    <div className='rounded-full shadow-lg  p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#016170]  animate-bounce'>
+                    <div className='rounded-full shadow-lg  p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#303030]  animate-bounce'>
                     <Link href='https://www.linkedin.com/in/yeshwanth-yesh-76b86123a/' >
                     <FaLinkedinIn />
                     </Link>
                     </div>
-                    <div className='rounded-full shadow-lg  p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#016170] hover:animate-bounce'>
+                    <div className='rounded-full shadow-lg  p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#303030] hover:animate-bounce'>
                     <Link href='https://github.com/yeshwanthc'>
                     <FaGithub />
                    </Link>
                    </div>
-                  <div className='rounded-full shadow-lg  p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#016170] hover:animate-bounce'>
+                  <div className='rounded-full shadow-lg  p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#303030] hover:animate-bounce'>
                   <Link href='mailto:yeshwanthnaidu62@gmail.com'>
                   <AiOutlineMail />
                   </Link>
                   </div>
-                  <div className='rounded-full shadow-lg  p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#016170] animate-bounce'>
+                  <div className='rounded-full shadow-lg  p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#303030] animate-bounce'>
                   <Link href='tel:+919550066495'>
                   <BsFillPersonLinesFill />
                   </Link>
